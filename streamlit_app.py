@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit import service_account
+from google.oauth2 import service_account
 from google.cloud import firestore
 
 import json
